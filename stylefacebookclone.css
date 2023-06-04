@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height:297px;
+    width:390px;
+    margin: -10px 0.1px -90px 159px;   
+    display: flex;
+    align-items: center;
+}
+.modernlogo{
+    padding-bottom: 20px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 60px;
+}
+.main{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    height: 50vh;
+   padding-top: none;
+   padding-bottom: 400px;
+   gap: none;
+}
+.content{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    height: 900px;
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+    gap:10px
+}
+.Login{
+    font-size: 1.98rem;
+    margin:20px 0 10px 0
+}
+.inputep{
+    outline-style: none;
+    font-size: 15px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 50px;
+    width: 85%
+}
+.loginbutton{
+    font-size: 15px;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: hwb(240 0% 0%);
+}
+.loginbutton:hover{     /*-hover is used to select the element or style the element when you mouse over them.*/
+    background-color: #1c20f3dc;
+    font-weight:bold
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.createnew{
+    border-radius: 5px;
+    color: aliceblue;
+    height: 20%;
+    font-size: 15px;
+    background-color: #42b72a;
+    margin: 1px 0 10px 0;
+    width:50%
+}
+.createnew:hover{
+    background-color: #2bc211;
+}
+.footerp{
+     padding-top: 20px;
+     padding-left: 429px;   
+     color: rgb(27, 25, 25);
+}
+.copyf{
+    padding-top: 40px;
+    padding-right: 1100px;
+    background-color: azure;
+}
